@@ -1,0 +1,25 @@
+{
+	"name": "EmployeeSinkDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "StorageLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "employee_output.csv",
+				"folderPath": "output",
+				"container": "csvcontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

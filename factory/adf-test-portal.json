@@ -1,0 +1,9 @@
+{
+	"name": "adf-test-portal",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "90b5eeba-2121-45af-ae6c-0a314f78876a",
+		"tenantId": "51e401af-ed9f-47b0-bc40-d4d6bb381a19"
+	}
+}
